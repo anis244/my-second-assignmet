@@ -49,8 +49,7 @@ nav  li{
 .text-primary{
     color:rgb(255, 57, 123) ;
 }
-.boltu{
-   
+.boltu{   
     display: grid;
     grid-template-columns: repeat(2,1fr);    
 }
@@ -227,4 +226,22 @@ sans-serif;
    list-style: none;
    color: #fff;
    gap: 20px;
+ }
+
+ .img-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+   padding: 10px;
+   font-size: medium;
+   margin-top: 50px;
+ }
+ .img-container:hover{
+    color: rgb(219, 55, 55);  
+   }
+
+ #anis{
+    justify-content: center;
+    padding-left: 500px;
  }
