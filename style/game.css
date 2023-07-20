@@ -1,0 +1,230 @@
+nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(253, 249, 225);
+       
+        
+    }
+
+nav > ul{
+    display: flex;
+    align-items: center;}
+
+nav  li{
+        list-style: none;
+        margin-right: 50px;
+        
+    }
+ nav a{
+        text-decoration: none;
+       color: rgb(79, 78, 78);
+    }  
+    .btn-primary{
+        background-color:hwb(0 74% 26%);
+         border-radius: 5px;
+         border: 0px;
+         font-size: 30px;
+         font-weight: 20px;
+         color: beige;
+         padding: 15px 15px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+ .img{
+ size: 5px;
+ padding-top: 55px;
+ padding-left: 55px;
+   
+ } 
+ .title{
+    color: black;
+    font-size: 45px;
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 15px;
+    text-align: left;
+}
+.text-primary{
+    color:rgb(255, 57, 123) ;
+}
+.boltu{
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);    
+}
+.section{ 
+      background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+   background-position: bottom left;
+}
+
+.banner-content{
+
+    mex: weight 500px;
+    justify-content:left;
+    margin: 50px;
+    padding-right: 40%;
+}
+.banner{
+    padding: 0px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banner .profile-pic{
+  width: 400px;
+}
+.banner-greeting{
+        font-size: 45px;
+        color: rgb(79, 78, 78);
+        margin-bottom: 10px;
+}
+.banner-title{
+   
+    font-size: 85px;
+    font-weight: 700;
+    color:rgba(249, 72, 178, 1) ;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.pragraf{  
+    padding-bottom: 15px;
+    padding-left: 10px;
+   size: 40px;
+  }
+  .btn-primary1{
+    background-color:rgba(249, 72, 178, 1) ;
+    border-radius: 35px;
+     border: 0px;
+     font-size: 30px;
+     font-weight: 20px;
+     color: beige;
+     padding: 15px 15px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+sans-serif;}
+.btn-primary2{
+    background-color: rgba(78, 197, 247, 1);
+    border-radius: 35px;
+     border: 0px;
+     font-size: 30px;
+     font-weight: 20px;
+     color: beige;
+     padding: 15px 15px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+sans-serif;}
+
+.div{
+    text-align: center;
+}
+.banner-title1{
+   
+    font-size: 65px;
+    font-weight: 700;
+    color:rgb(8, 7, 7) ;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.pragraf1{  
+    padding-bottom: 15px;
+    padding-left: 10px;
+   size: 40px;
+  }
+
+  .skills-container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    
+    
+}
+.skills{
+   padding: 30px;
+   
+   border-radius: 5px;
+   background-color: #fff;
+   box-shadow: 0px 6px 8px 0px rgba(0, 0, 0.06);
+  
+}
+.skils-description{
+    color: #757575;
+}
+
+.banner-content1{
+
+    mex: weight 500px;
+    justify-content:space-evenly;
+    margin: 50px;
+    
+}
+.banner1{
+    padding: 0px 100pxpx 0px 150px;
+    display: flex; 
+    margin-top: 40px;   
+    
+}
+.banner .profile-pic{
+  width: 250px;
+}
+
+.pragaf,.banner-title1{
+    margin-top: 150px;
+    margin-left: 5px;
+}
+.pragraf{  
+    padding-bottom: 15px;
+    padding-left: 10px;
+   size: 40px;
+  }
+
+  .banner-content1{
+    
+    mex: weight 500px;
+    justify-content:space-eve
+    margin: 50px;
+    
+}
+.banner4{
+    background-color: rgba(249, 72, 178, 1);
+   
+    display: flex; 
+    margin-top: 40px;   
+    
+}
+.banner .profile-pic{
+  width: 250px;
+}
+
+.pragaf2, .banner-title2{
+    margin-top: 150px;
+    margin-left: 5px;
+   color: #fff;
+}
+.pragraf2{  
+    padding-bottom: 15px;
+    padding-left: 10px;
+   size: 40px;
+   color: #fff;
+  } 
+  .btn-primary3{
+    background-color:hwb(0 100% 0%);
+     border-radius: 5px;
+     border: 0px;
+     font-size: 30px;
+     font-weight: 20px;
+     color: rgb(231, 88, 88);
+     padding: 15px 15px;
+     font-family: system-ui, -apple-system, 'Segoe UI', 
+, 'Open Sans', 'Helvetica Neue', 
+sans-serif;
+ }
+ div >ol {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   list-style: none;
+   color: #fff;
+   gap: 20px;
+ }
