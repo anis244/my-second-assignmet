@@ -150,7 +150,10 @@ sans-serif;
   
 }
 .skills:hover{
-   
+   background-image: url('../icon8/icons8-play-button-circled-48.png');
+   background-repeat: no-repeat;  
+  
+ 
 }
 .skils-description{
     color: #757575;
@@ -160,8 +163,9 @@ sans-serif;
     justify-content: center;
 }
 .banner-content1{
+    padding: 100px 100px 100px 100px;
     mex: weight 500px;
-    justify-content:space-evenly;
+    align-items: center;
     margin: 50px;
     padding-left: 50px;
 }
@@ -170,20 +174,14 @@ sans-serif;
     background-image: url('../images/Rectangle\ 55.png');
     background-repeat: no-repeat;
     background-position:center;
-    
-   
-   
-    
 }
 .banner1{
- padding:100px 100px 100px 100px;
-    display: flex; 
+     display: flex; 
     margin-top: 40px;      
   align-items: center;
 }
-.profile-pic1{
-   
-    padding-bottom: 30%;
+.profile-pic1{   
+    padding-bottom: 30px;
  padding-right: 5%; 
 }
 .banner1 .profile-pic1{
@@ -251,7 +249,7 @@ sans-serif;
 }
 .hover:hover{
     color:red;    
-    border-radius: 2px solid red;
+    border-radius: 1px solid red;
     margin: 3px;
     color: red;
     gap: 20px;
@@ -309,4 +307,13 @@ sans-serif;
     padding-bottom: 10px;
     color: #5c5a5a;
     padding-left: 30px;
+}
+
+
+@media screen and (mex-width:576px) {
+    
+}
+
+@media screen and (min-width:576px) and (mex-width:992px) {
+    
 }
